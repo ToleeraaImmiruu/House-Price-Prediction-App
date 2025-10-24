@@ -12,7 +12,6 @@ st.divider()
 st.write("This app uses a trained Machine Learning model to predict house prices based on input features. Enter the details below and click **Predict** to get an estimated price.")
 
 st.divider()
-
 # Input fields
 bedrooms = st.number_input("Number of Bedrooms", min_value=0, value=3)
 bathrooms = st.number_input("Number of Bathrooms", min_value=0, value=2)
