@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load your trained model
+# Load your trained models
 model = joblib.load("model.pkl")
 
 # App title
