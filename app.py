@@ -5,7 +5,6 @@ import pandas as pd
 # Load your trained models
 model = joblib.load("model.pkl")
 
-
 # App title
 st.title("🏠 House Price Prediction App")
 st.divider()
