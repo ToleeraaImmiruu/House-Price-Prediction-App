@@ -6,7 +6,7 @@ import pandas as pd
 model = joblib.load("model.pkl")
 
 
-# App title
+# App title when the page was loading 
 st.title("🏠 House Price Prediction App")
 st.divider()
 
