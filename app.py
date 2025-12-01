@@ -7,7 +7,7 @@ model = joblib.load("model.pkl")
 
 
 # App title when the page was loading to the user  
-st.title("🏠 House Price Prediction App") 
+st.title("🏠 House Price Prediction App")  
 st.divider()
 
 st.write("This app uses a trained Machine Learning model to predict house prices based on input features the make the prediction . Enter the details below and click **Predict** to get an estimated price.")
