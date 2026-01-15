@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import numpy as  np
 import pandas as pd
-
 # Load your trained models
 model = joblib.load("model.pkl")
 #App title when the page was loading to the user of the data
