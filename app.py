@@ -19,7 +19,6 @@ st.divider() #this was used to add the break line to the pages
 x = np.array([[bedrooms, bathrooms, condition, number_of_schools]])
 # Predict button
 predict_button = st.button("🔮 Predict")
-
 if predict_button:
     prediction = model.predict(x)[0]
     st.success(f"💰 Estimated House Price: {prediction:,.2f}")
