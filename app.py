@@ -24,7 +24,7 @@ if predict_button:
     st.success(f"💰 Estimated House Price: {prediction:,.2f}")
     st.balloons()
 else:
-    
+
     st.info("Please enter values and click **Predict** to see the result.")
 
 
